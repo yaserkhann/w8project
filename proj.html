@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>YOSEMITE NP</title>
+    <meta charset="utf-8" />
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" /> -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="./js/proj.js"></script>
+    <link rel="stylesheet" href="./css/proj.css" />
+</head>
+<body>
+    <div class="container-fluid" style="border: 2px solid black;">
+        <div class="covid-fluid">
+            <div id="icon">
+                <svg xmlns="http://www.w3.org/2000/svg" height="50" class="bi bi-exclamation-octagon"
+                    viewBox="0 0 16 20">
+                    <path
+                        d="M4.54.146A.5.5 0 0 1 4.893 0h6.214a.5.5 0 0 1 .353.146l4.394 4.394a.5.5 0 0 1 .146.353v6.214a.5.5 0 0 1-.146.353l-4.394 4.394a.5.5 0 0 1-.353.146H4.893a.5.5 0 0 1-.353-.146L.146 11.46A.5.5 0 0 1 0 11.107V4.893a.5.5 0 0 1 .146-.353L4.54.146zM5.1 1L1 5.1v5.8L5.1 15h5.8l4.1-4.1V5.1L10.9 1H5.1z" />
+                    <path
+                        d="M7.002 11a1 1 0 1 1 2 0 1 1 0 0 1-2 0zM7.1 4.995a.905.905 0 1 1 1.8 0l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 4.995z" />
+                </svg>
+            </div>
+            <div class="info">
+                <h6>Covid-19 Response</h6>
+                <p>
+                    Flollowing guidence from health authorities, we are increasing
+                    acessed and services in a phased approach<br />
+                    across all the uinis of national park system.Before visting a
+                    park,please check the
+                    <a href="park_website">park website</a> to<br />
+                    determine its opearting status.Upadates about the over all NPS
+                    reponse to COVID-19,including safety<br />
+                    information,are posted on <a href="#">www.nps.gov/coronavirus.</a>
+                </p>
+            </div>
+            <div id="icon1">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-x-circle-fill"
+                    viewBox="0 0 16 16">
+                    <path
+                        d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM5.354 4.646a.5.5 0 1 0-.708.708L7.293 8l-2.647 2.646a.5.5 0 0 0 .708.708L8 8.707l2.646 2.647a.5.5 0 0 0 .708-.708L8.707 8l2.647-2.646a.5.5 0 0 0-.708-.708L8 7.293 5.354 4.646z" />
+                </svg>
+            </div>
+        </div>
+        <div class="nav-fluid" style="height: 40px; background-color: black;">
+            <div class="row offset-3">
+                <div class="col-md">
+                    <div class="d-flex" style="height: 35px; padding-top: 10px; color: white;">
+                        <img src="./images/img1.png" alt="./images/img.png" />
+                        <h5>National Park Service</h5>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="d-flex">
+                        <div class="input-group" style="padding-top: 10px;color: lightgray;justify-content: flex-end;">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-search" viewBox="0 0 16 16">
+                                <path
+                                    d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+                            </svg>
+                            <p>SEARCH</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="col-md">
+                    <div class="d-flex" style="
+                color: lightgrey;
+                padding-top: 10px;
+                border-left: 1px solid lightgray;">
+                        <svg  class = "menu" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                            class="bi bi-caret-down-fill" viewBox="0 0 16 16">
+                            <path
+                                d="M7.247 11.14L2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z" />
+                        </svg>
+                        <p class="menu">MENU</p>
+                    </div>
+                </div> -->
+                <div class="col-md">
+                    <div class="btn-group" style="border: none;">
+                        <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false" style="background-color: black; border: none;">
+                            MENU
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a class="sub1" href="#">activites</a></li>
+                            <li><a class="sub2" href="#">directionsInfo</a></li>
+                            <li><a class="sub3" href="#">See Picures</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main-fluid" style="height: 250px;">
+            <div class="row">
+                <div class="col-md">
+                    <div class="d-flex" style="color: white; padding-top: 15%; padding-left: 5%;">
+                        <h4 class="title">YOSMITE</h4>
+                        <p class="des">
+                            &emsp;&emsp;National Park<br />
+                            &emsp;&emsp;CA US
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row-fluid offset-2" style="height: 100px;">
+            <div class="col-md">
+                <div class="d-flex" style="padding-left: 0%; padding-top: 1%;">
+                    <h2>Observe Inspiring Nature</h2>
+                </div>
+            </div>
+            <div class="col-md">
+                <div class="d-flex" style="justify-content: flex-start; padding-left: 0%;">
+                    <p>
+                        Yosemite National Park is located in central California. It was
+                        established as a national park in October of 1890 andboasts almost
+                        four <br />million visitors per year. Yosemite National Park is
+                        open year round, but much of the park closes to visitors come
+                        <br />late autumn and the winter snows.The park reopens entirely
+                        in mid to late spring.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="park">
+            <div class="row offset-2" style="height: 300px; margin-top: 1%;">
+                <div class="col-md-3">
+                    <div class="card" style="width: 100%;">
+                        <img src="./images/img10.jpg" class="card-img-top" alt="./images/img4.jpg" />
+                        <div class="card-body">
+                            <h6 class="card-title">Current Park Conditions</h6>
+                            <p class="card-text">
+                                Learn more about current conditions in Yosemite such as roads,
+                                trails, campgrounds,and waterfalls, snowpack, etc.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card" style="width: 100%;">
+                        <iframe width="100%" height="140" src="https://www.youtube.com/embed/LTvFsTbyILg"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                        <div class="card-body">
+                            <h6 class="card-title">Explore the Park</h6>
+                            <p class="card-text">
+                                Short drone Video to watch several eyecatching glimpse of
+                                Yosmite
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card" style="width: 100%;">
+                        <img src="./images/img9.jpg" class="card-img-top" alt="./images/img4" />
+                        <div class="card-body">
+                            <h6 class="card-title">Lodging</h6>
+                            <p class="card-text">
+                                Looking for lodging? Learn more about our popular overnight
+                                accommodations.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
